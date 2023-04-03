@@ -1,0 +1,56 @@
+.container {
+	margin: 0 auto;
+	max-width: 800px;
+  }
+  
+  h1 {
+	text-align: center;
+	font-size: 48px;
+  }
+  
+  .add-task input {
+	width: 70%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-size: 24px;
+  }
+  
+  .add-task button {
+	width: 20%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #4CAF50;
+	color: white;
+	font-size: 24px;
+	cursor: pointer;
+  }
+  
+  .pending-tasks h2, .completed-tasks h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+  }
+  
+  ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  li {
+	margin-bottom: 10px;
+	font-size: 24px;
+  }
+  
+  .completed {
+	text-decoration: line-through;
+	color: #888;
+  }
+  
+  .delete-button, .edit-button {
+	margin-left: 10px;
+	font-size: 20px;
+	cursor: pointer;
+  }
+  
